@@ -5,5 +5,7 @@ import "fmt"
 func main() {
 	iTmp := 100
 
-	fmt.Println("hello world", iTmp)
+	for i := 0; i < iTmp; i++ {
+		fmt.Println("hello world : ", i)
+	}
 }
